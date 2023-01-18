@@ -26,6 +26,13 @@ public class Vehicle {
 		
 	}
 	
+	@Override
+	public String toString() {
+		return "Vehicle [numberOfWheels=" + numberOfWheels + ", numberOfGears=" + numberOfGears + ", color=" + color
+				+ ", brand=" + brand + ", flueType=" + flueType + ", numberOfSeats=" + numberOfSeats
+				+ ", transportType=" + transportType + "]";
+	}
+
 	public static void main(String[] args) {
 		//object or instance
 		Vehicle bus = new Vehicle();
